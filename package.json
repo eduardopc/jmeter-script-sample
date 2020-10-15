@@ -1,0 +1,23 @@
+{
+  "name": "jmeter-script-sample",
+  "version": "1.0.0",
+  "description": "Script simples com intuito educacional para o beyondTest",
+  "main": "index.js",
+  "scripts": {
+    "dev": "docker-compose up -d && ./node_modules/.bin/json-server GetMovies.json -p 3356 -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardopc/jmeter-script-sample.git"
+  },
+  "keywords": [],
+  "author": "Eduardo Pacheco Celeste",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduardopc/jmeter-script-sample/issues"
+  },
+  "homepage": "https://github.com/eduardopc/jmeter-script-sample#readme",
+  "dependencies": {
+    "json-server": "^0.16.2"
+  }
+}

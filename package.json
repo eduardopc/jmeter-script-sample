@@ -4,7 +4,7 @@
   "description": "Script simples com intuito educacional para o beyondTest",
   "main": "index.js",
   "scripts": {
-    "dev": "docker-compose up -d && ./node_modules/.bin/json-server GetMovies.json -p 3356 -w"
+    "start": "npm i && docker-compose up -d && ./node_modules/.bin/json-server GetMovies.json -p 3356 -w"
   },
   "repository": {
     "type": "git",

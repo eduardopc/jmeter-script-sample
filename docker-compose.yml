@@ -2,8 +2,9 @@ version: "3.7"
 
 services:
   influxdb:
-    image: influxdb
+    build: influxdb
     container_name: influxdb
+    env_file: configuration.env
     restart: always
     ports:
       - 8086:8086

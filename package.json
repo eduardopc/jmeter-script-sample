@@ -2,9 +2,8 @@
   "name": "jmeter-script-sample",
   "version": "1.0.0",
   "description": "Script simples com intuito educacional para o beyondTest",
-  "main": "index.js",
   "scripts": {
-    "start": "npm i && docker-compose up -d && ./node_modules/.bin/json-server GetMovies.json -p 3356 -w"
+    "start": "npm i && docker-compose up -d && ./node_modules/.bin/json-server ./api/GetMovies.json -p 3356 -w"
   },
   "repository": {
     "type": "git",

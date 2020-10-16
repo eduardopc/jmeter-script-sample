@@ -1,13 +1,13 @@
-# jmeter-script-sample
-Script simples com intuito educacional para o beyondTest
+# Jmeter Script Sample
+Escrito para suportar o artigo: https://medium.com/beyondtest/testes-de-performance-com-jmeter-influxdb-e-grafana-317ce86fa840
+
+Utilitário para subir a infraestrutura necessária e assim realizar todos os passos do artigo acima.
 
 ## Pré requisitos
 
 * Node
 * NPM
 * Docker
-
-Escrito para suportar o artigo: https://medium.com/beyondtest/testes-de-performance-com-jmeter-influxdb-e-grafana-317ce86fa840
 
 Para executar:
 
